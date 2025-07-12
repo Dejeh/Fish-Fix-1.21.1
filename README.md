@@ -9,7 +9,10 @@ By default, the mod uses the game's hardcoded values; they must be changed in th
 
 I do plan on backporting this mod.
 
+**To be clear: this mod does not allow you to modify sea level. This must be done separately.**
+
 Contact Me
 ==========
 Dejeh on Discord
+
 Please report any bugs on the issue tracker: https://github.com/Dejeh/Fish-Fix-1.21.1/issues
