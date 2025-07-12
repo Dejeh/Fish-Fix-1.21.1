@@ -1,25 +1,15 @@
+What is Fish Fix?
+=================
 
-Installation information
-=======
+This is a mod for NeoForge 1.21.1. It addresses this bug in particular: https://bugs.mojang.com/browse/MC/issues/MC-226687. It simply fixes the consequences of the hardcoded "getSeaLevel" method by allowing the user to set their own sea level.
+This bug was fixed in 1.21.2.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+This mod is primarily useful for datapack and modpack creators, or anyone who modifies world generation with the ocean in mind.
+By default, the mod uses the game's hardcoded values; they must be changed in the config for any practical effect.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+I do plan on backporting this mod.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
+Contact Me
 ==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Dejeh on Discord
+Please report any bugs on the issue tracker: https://github.com/Dejeh/Fish-Fix-1.21.1/issues
